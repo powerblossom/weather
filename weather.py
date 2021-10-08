@@ -14,6 +14,7 @@ info = '''
 3.inchon
 4.jeju
 5.New York
+6.Beijing
 '''
 print(info)
 inputVal = input('번호를 입력하세요(선택이 잘못된경우 서울이 기본 값): ')
@@ -30,6 +31,9 @@ elif int(inputVal) == 4:
 elif int(inputVal) == 5:
     cityname = 'nyc'
     korname = '뉴욕'
+elif int(inputVal) == 6:
+    cityname = 'Beijing'
+    korname = '베이징'
 else:
     cityname = 'seoul'
     korname = '서울'
